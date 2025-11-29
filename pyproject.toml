@@ -1,0 +1,17 @@
+[project]
+name = "finwise"
+version = "0.1.0"
+description = "Financial coaching app backend with NLP and AI agents"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "openai-whisper>=20231117",
+    "requests>=2.31.0",
+    "python-dateutil>=2.8.2",
+    "google-generativeai>=0.3.0",
+    "python-multipart>=0.0.20",
+]

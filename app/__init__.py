@@ -1,0 +1,2 @@
+"""FinWise FastAPI Backend Application."""
+
